@@ -215,6 +215,8 @@ mTagcontainerLayout.setTags(tags, colors);
 ```
 
 ## Change logs
+### 1.1.8(2021-08-13)
+- jitpack仓库，版本升级
 
 ### 1.1.7(2019-01-21)
 - Fix bugs
