@@ -15,9 +15,15 @@ An Android TagView library. You can customize awesome TagView by using this libr
 Add below dependency in your **build.gradle** file.
 
 ```groovy
+
+allprojects {
+    repositories {
+	   maven { url 'https://jitpack.io' }
+    }
+}
+
 dependencies {
-    implementation 'co.lujun:androidtagview:1.1.7'
-    implementation 'androidx.appcompat:appcompat:1.0.1'
+    implementation 'com.github.lzjin:AndroidTagView:1.1.8'
 }
 ```
 
